@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFB2CA</item>
+        <item name="colorPrimaryDark">#A3959D</item>
+        <item name="colorAccent">#A3959D</item>
+    </style>
+    <dimen name="size">30sp</dimen>
+    <dimen name="padding">20sp</dimen>
+    <dimen name="title">50sp</dimen>
+    <style name="MaterialCardViewTheme" parent="Theme.MaterialComponents.NoActionBar"/>
+    <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorAccent</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Shrine.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

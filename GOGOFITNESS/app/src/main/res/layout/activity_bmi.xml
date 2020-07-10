@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD180"
+    android:padding="@dimen/padding"
+    tools:context=".BMI">
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="683dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/bmi_calc"
+            android:textColor="@color/_font"
+            android:textSize="@dimen/title"
+            app:fontFamily="sans-serif-black" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:hint="@string/_height"
+                android:inputType="numberDecimal"
+                android:textColor="@color/_font"
+                android:textSize="@dimen/size" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:hint="@string/_weight"
+                android:inputType="numberDecimal"
+                android:textColor="@color/_font"
+                android:textSize="@dimen/size" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size"
+            android:background="#FF80AB"
+            android:padding="10dp"
+            android:text="     Calculate BMI    "
+            android:textColor="@color/_font"
+            android:textSize="@dimen/size"
+            android:textStyle="bold"
+
+            />
+
+        <TextSwitcher
+            android:id="@+id/result"
+            android:layout_width="299dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="@dimen/size"
+            android:gravity="center_horizontal"
+            android:textColor="@color/_font"
+
+            />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

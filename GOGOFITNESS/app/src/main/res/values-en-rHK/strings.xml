@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="StartExercise">StartExercise</string>
+    <string name="_height">Height (in cm)</string>
+    <string name="_weight">Weight (in kg)</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="bmi_result">BMI Result</string>
+    <string name="bmi_calc">BMI Calculator</string>
+</resources>
