@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Aboutme</string>
+
+    <string name="name">Guo Tang</string>
+    <string name="yellow_star">Yellow Star</string>
+        <string name="bio">Hello! My name is Guo Tang.
+        \n\nI love swimming.
+        \n\nI got a swimming pool in my garden.
+        \n\nI used to swim in my swimming pool everyday.
+        \n\nHowever it is rainy outside.
+        \n\nso I have to stay in my house.
+        \n\nWhen The sum comes down the moon goes up.
+        \n\nI will become Batman.
+        \n\n\n show the justice.
+
+
+    </string>
+
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+
+</resources>
