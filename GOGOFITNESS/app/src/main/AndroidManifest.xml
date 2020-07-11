@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BMI"></activity>
+        <activity android:name=".Chat"></activity>
         <activity android:name=".Exercise" />
         <activity android:name=".Menu" />
         <activity android:name=".Planer" />
+        <activity android:name=".HelpActivity"/>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

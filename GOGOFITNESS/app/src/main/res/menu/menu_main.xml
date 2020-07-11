@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.GOGOFITNESS.MainActivity">
+
+    <item
+        android:id="@+id/chat_item"
+        android:title="Contact a personal trainer"/>
+    <item
+        android:id="@+id/help_item"
+        android:title="Help"/>
+    <item
+        android:id="@+id/map_item"
+        android:title="Find a GYM"/>
+    <item
+        android:id="@+id/share_item"
+        android:title="Share"/>
+    <item
+        android:id="@+id/about_us"
+        android:title="About us"/>
+
+
+</menu>

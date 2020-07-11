@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A3959D"
     android:gravity="center"
@@ -21,7 +21,8 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="10dp"
         android:background="#00FFFFFF"
-        app:srcCompat="@drawable/go" />
+        app:srcCompat="@drawable/go"
+        tools:visibility="visible" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -43,6 +44,7 @@
             android:layout_marginRight="10dp"
             android:onClick="gotoMenu"
             app:srcCompat="@drawable/trainer" />
+
 
         <TextView
             android:id="@+id/textView5"
@@ -93,6 +95,13 @@
             android:textSize="30sp"
             app:backgroundTint="#00917C94" />
     </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/button4"
+        android:layout_width="278dp"
+        android:layout_height="45dp"
+        android:onClick="gotoHelp"
+        app:srcCompat="@drawable/wenhao" />
 
 
 </LinearLayout>

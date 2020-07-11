@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fitness App</string>
+    <string name="app_name">GOGOFITNESS</string>
     <string name="StartExercise">Start Exercise</string>
 
     <string name="_height" >Height (in cm)</string>
@@ -7,4 +7,12 @@
     <string name="calculate_bmi">    Calculate BMI     </string>
     <string name="bmi_result">BMI Result</string>
     <string name="bmi_calc">BMI Calculator</string>
+    <string name="hi">Hi</string>
+    <string name="receive">Receive</string>
+    <string name="enter_message">Enter message</string>
+    <string name="send">Send</string>
+    <string name="todo">todo</string>
+    <string name="FitnessChat">FitnessChat</string>
+    <string name="Call_me">Call the number below</string>
+    <string name="phone">Call help 914-123-1234</string>
 </resources>
